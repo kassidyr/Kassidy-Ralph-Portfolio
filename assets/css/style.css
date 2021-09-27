@@ -15,7 +15,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* HEADER / NAV BAR STYLES START */
+/* header styles */
 
 header {
     padding: 20px 35px;
@@ -66,3 +66,13 @@ header a {
     text-shadow: none;
   }
   
+  /* hero styles */
+
+  .hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/background2.JPG");
+    background-size: cover;
+    background-position: center;
+} 
