@@ -1,6 +1,6 @@
 :root {
     --primary-color-text:#ffffff;
-    --secondary-color-text:#2a607c;
+    --secondary-color-text:#bdd9e7;
     --primary-color-background:#566d81;
     --secondary-color-background:#10415a;
 }
@@ -80,7 +80,7 @@ header a {
 
 .hero h3 {
     font-style: italic;
-    font-family: imes;
+    font-family: times;
     font-weight: lighter;
     position:absolute;
     bottom: 10px;
@@ -127,7 +127,16 @@ p {
     font-size: 16px;
 }
 
-/* utilities */
-.flex-row {
-    display: flex;
+.contact-me {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 125px;
+}
+
+.contact-me p {
+    margin: auto;
+    padding: 50px;
+    color: var(--secondary-color-text)
+    text-decoration: none;
 }
